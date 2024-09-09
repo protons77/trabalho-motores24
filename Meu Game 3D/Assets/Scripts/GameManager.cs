@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 public class GameManager : MonoBehaviour
 {
+
     public TextMeshProUGUI hud, MsgVitoria;
     public int moeda;
     void Start()
@@ -28,10 +29,3 @@ public class GameManager : MonoBehaviour
         }
         
     }
-
-    
-    void Update()
-    {
-        
-    }
-}
